@@ -1,0 +1,41 @@
+#product-component{
+    
+    
+       .product-image{
+        max-height: 150px;
+       }
+    
+       .description-container{
+        background: linear-gradient(to bottom right, white, lightgray);
+        max-height:200px;
+       }
+    
+       .cart-button{
+        background: linear-gradient(45deg, #D2B48C 25%, #BC8F8F 25%, #BC8F8F 50%, #D2B48C 50%, #D2B48C 75%, #BC8F8F 75%, #BC8F8F 100%);
+        transform: translate();
+        transition: 1s ease-in-out;
+       }
+    
+       .cart-button:hover{
+        background: linear-gradient(45deg, #e2be8e 25%, #b67f7f 25%, #b88282 50%, #c0a179 50%, #a08057 75%, #BC8F8F 75%, #BC8F8F 100%);
+        transition: 0.5s ease-in-out;
+       }
+    
+       .remove-button{
+            background: linear-gradient(45deg, #FF0000 25%, #FF0000 50%, #D3D3D3 50%, #D3D3D3 75%);
+            transform: translate();
+            transition: 1s ease-in;
+       }
+    
+       .remove-button:hover{
+            background: linear-gradient(45deg, #D3D3D3 50%, #D3D3D3 75%, #FF0000 25%, #FF0000 50%);
+            transition: 1s ease-in;
+       }
+    
+       .ellipsis-text {
+                white-space: nowrap; /* Prevent text from wrapping */
+                overflow: hidden; /* Hide overflowing text */
+                text-overflow: ellipsis; /* Show ellipsis (...) for overflow */
+                
+            }
+}
